@@ -12,17 +12,17 @@ const Navbar = () => {
 		</a>
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Link</a>
+				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Home</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+				<a rel="noopener noreferrer" href="/about" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+				<a rel="noopener noreferrer" href="/services" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Services</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
-			</li>
+				<a rel="noopener noreferrer" href="/about/aboutCar" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">About Car</a>
+			</li>			
 		</ul>
 		<div className="items-center flex-shrink-0 hidden lg:flex">
 			<button className="self-center px-8 py-3 rounded">Sign in</button>
