@@ -57,6 +57,14 @@ const Navbar = () => {
 				  About Car
 				</Link>
 			  </li>
+			  <li className="flex">
+				<Link
+				  href="/posts"
+				  className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600"
+				>
+				  Posts
+				</Link>
+			  </li>
 			</ul>
 			<div className="items-center flex-shrink-0 hidden lg:flex">
 			  <button className="self-center px-8 py-3 rounded">Sign in</button>
