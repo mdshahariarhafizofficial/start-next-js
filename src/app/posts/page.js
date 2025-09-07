@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export const fetchPosts = async () => {
@@ -8,16 +9,16 @@ export const fetchPosts = async () => {
 
 const page = async () => {
     const posts = await fetchPosts();
-    console.log(posts);
     
     return (
-        <div className='grid grid-cols-4 gap-6 py-10'>
+        <div className='grid grid-cols-4 gap-6 p-10'>
             {
                 posts?.map(post => {
-                    return <div key={post.id} className='p-5 bg-gray-300 rounded-2xl'>
+                    return <div key={post.id} className='p-5 bg-gray-300 rounded-2xl space-y-6'>
                         <h4>{post.id}</h4>
                         <h2>{post.title}</h2>
                         <p>{post.body}</p>
+                        <Link href={`/posts/${post.id}`} className=' bg-green-400 px-3 py-2'>Read More...</Link>
                     </div>
                 })
             }
