@@ -4,6 +4,7 @@ import Feature from "./Components/Feature";
 import Blogs from "./Components/Blogs";
 import Faq from "./Components/Faq";
 import Contact from "./Components/Contact";
+import Form from "./Components/Form";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Blogs></Blogs>
       <Faq></Faq>
       <Contact></Contact>
+      <Form></Form>
     </>
   );
 }
