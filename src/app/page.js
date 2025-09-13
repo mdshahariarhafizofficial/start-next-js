@@ -5,6 +5,7 @@ import Blogs from "./Components/Blogs";
 import Faq from "./Components/Faq";
 import Contact from "./Components/Contact";
 import Form from "./Components/Form";
+import Cta from "./Components/Cta";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Faq></Faq>
       <Contact></Contact>
       <Form></Form>
+      <Cta></Cta>
     </>
   );
 }
